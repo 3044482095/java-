@@ -1,4 +1,4 @@
-FROM maven
+FROM maven:v1
 WORKDIR /opt/app
 EXPOSE 8080
 COPY . /opt/app/
